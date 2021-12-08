@@ -1,9 +1,9 @@
 package com.github.cexj.restart.guardian
 
 import akka.actor.ActorSystem
-import akka.actor.typed.{ActorRef, Behavior, SupervisorStrategy, Terminated}
 import akka.actor.typed.scaladsl.Behaviors
 import akka.actor.typed.scaladsl.adapter.ClassicActorSystemOps
+import akka.actor.typed.{ActorRef, Behavior, Terminated}
 import com.github.cexj.restart.guardian.JobManagerActor.JobManagerActorCommander
 import com.github.cexj.restart.guardian.JobManagerActor.JobManagerActorCommander._
 
